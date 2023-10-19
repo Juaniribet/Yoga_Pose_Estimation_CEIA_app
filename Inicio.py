@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-im = Image.open('pages/Data/imagenes/loto.png')
+im = Image.open('pages/Data/loto.png')
 
 st.set_page_config(
     page_title="Detector de posturas de Yoga", 
@@ -49,16 +49,16 @@ col3, col4 = st.columns(2)
 
 with col1:
    st.header("Perro boca abajo")
-   st.image("pages\Data\imagenes_mostrar\Downward_Facing_Dog.png")
+   st.image("pages\Data\images_display\downdog.png")
 
 with col2:
    st.header("Diosa")
-   st.image("pages\Data\imagenes_mostrar\goddess.png")
+   st.image("pages\Data\images_display\goddess.png")
 
 with col3:
    st.header("Árbol")
-   st.image("pages\Data\imagenes_mostrar\Tree.png")
+   st.image("pages\Data\images_display\Tree.png")
 
 with col4:
    st.header("Guerrero")
-   st.image("pages\Data\imagenes_mostrar\warrior.png")
+   st.image("pages\Data\images_display\warrior.png")
